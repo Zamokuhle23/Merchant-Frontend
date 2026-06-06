@@ -34,7 +34,7 @@ export default function Login() {
     <div className="min-vh-100 d-flex align-items-center justify-content-center bg-light">
       <div className="card shadow" style={{ width: '100%', maxWidth: 420 }}>
         <div className="card-body p-4">
-          <h4 className="text-center mb-4 fw-bold text-primary">MicroFinance</h4>
+          <h4 className="text-center mb-4 fw-bold text-primary">Qinance</h4>
           {error && <div className="alert alert-danger">{error}</div>}
           <form onSubmit={handleSubmit}>
             <div className="mb-3">

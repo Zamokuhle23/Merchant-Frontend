@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <Link className="navbar-brand fw-bold" to={user.is_staff ? '/admin/dashboard' : '/dashboard'}>
-          MicroFinance
+          Qinance
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
           <span className="navbar-toggler-icon" />
