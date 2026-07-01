@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { login } from '../api/auth'
 import { useAuth } from '../context/AuthContext'
 
+// Small harmless change to trigger a fresh deployment.
 export default function Login() {
   const { loginUser } = useAuth()
   const navigate = useNavigate()
