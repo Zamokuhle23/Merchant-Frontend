@@ -5,7 +5,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "http://129.151.190.212:8000/api/$1",
+      "dest": "http://145.241.187.64:8081/api/$1",
       "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
     },
     {
